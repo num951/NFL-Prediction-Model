@@ -25,7 +25,7 @@ from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier, VotingC
 import xgboost as xgb
 import pickle
 import os
-
+import xlrd
 file_path = os.path.dirname(os.path.abspath("__file__"))
 
 # # Loading and Cleaning Data
